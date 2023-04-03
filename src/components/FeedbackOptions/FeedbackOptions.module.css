@@ -1,0 +1,21 @@
+.feedbackBlok {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.feedbackItem {
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.feedbackItem:hover,
+.feedbackItem:focus {
+  background-color: rgb(10, 10, 243);
+  color: #fff;
+}
